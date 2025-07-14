@@ -1,2 +1,1 @@
-# my_complited_team-projects
-В каждой директории свой README!
+# README files are located inside the projects.
