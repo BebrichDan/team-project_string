@@ -1,5 +1,77 @@
 # s21_string+
 
+## Struct
+```
+.
+├── misc
+│   ├── eng
+│   │   └── images
+│   │       └── s21_stringplus.png
+│   └── rus
+│       └── images
+│           └── s21_stringplus.png
+├── README.md
+├── README_RUS.md
+└── src
+    ├── Makefile
+    ├── s21_errorApple.h
+    ├── s21_errorLinux.h
+    ├── s21_sprintf.c
+    ├── s21_sprintf.h
+    ├── s21_sscanf.c
+    ├── s21_sscanf.h
+    ├── s21_string.c
+    ├── s21_string.h
+    ├── test_main.c
+    └── tests
+        ├── sprintf
+        │   ├── test_s21_sprintf_c.c
+        │   ├── test_s21_sprintf_d.c
+        │   ├── test_s21_sprintf_e.c
+        │   ├── test_s21_sprintf_E.c
+        │   ├── test_s21_sprintf_f.c
+        │   ├── test_s21_sprintf_g.c
+        │   ├── test_s21_sprintf_G.c
+        │   ├── test_s21_sprintf_i.c
+        │   ├── test_s21_sprintf_o.c
+        │   ├── test_s21_sprintf_p.c
+        │   ├── test_s21_sprintf_s.c
+        │   ├── test_s21_sprintf_u.c
+        │   ├── test_s21_sprintf_x.c
+        │   └── test_s21_sprintf_X.c
+        ├── sscanf
+        │   ├── test_specifier_c.c
+        │   ├── test_specifier_d.c
+        │   ├── test_specifier_e.c
+        │   ├── test_specifier_f.c
+        │   ├── test_specifier_i.c
+        │   ├── test_specifier_o.c
+        │   ├── test_specifier_pct.c
+        │   ├── test_specifier_s.c
+        │   ├── test_specifier_u.c
+        │   └── test_specifier_x.c
+        └── string
+            ├── unit_tests_insert.c
+            ├── unit_tests_memchr.c
+            ├── unit_tests_memcmp.c
+            ├── unit_tests_memcpy.c
+            ├── unit_tests_memset.c
+            ├── unit_tests_strcspn.c
+            ├── unit_tests_strerror.c
+            ├── unit_tests_strlen.c
+            ├── unit_tests_strncat.c
+            ├── unit_tests_strncmp.c
+            ├── unit_tests_strncpy.c
+            ├── unit_tests_strprbk.c
+            ├── unit_tests_strrchr.c
+            ├── unit_tests_strstr.c
+            ├── unit_tests_strtok.c
+            ├── unit_tests_to_lower.c
+            ├── unit_tests_to_upper.c
+            ├── unit_test_strchr.c
+            └── unit_tests_trim.c
+```
+
 Implementation of the string.h library with additions.
 
 The russian version of the task can be found in the repository.
